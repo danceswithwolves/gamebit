@@ -1,0 +1,21 @@
+{
+  "name": "gamebit-project",
+  "version": "0.0.1",
+  "description": "project service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gamebit",
+    "project"
+  ],
+  "author": "danceswithwolves",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "rethinkdb": "^2.3.2",
+    "seneca": "^2.1.0",
+    "winston": "^2.2.0"
+  }
+}
