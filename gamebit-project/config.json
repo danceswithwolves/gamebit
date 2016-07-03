@@ -1,0 +1,9 @@
+{
+    "NODE_ENV"               : "development",
+    "GP_DB_HOST"             : "localhost",
+    "GP_DB_PORT"             : 28015,
+    "GP_DB_NAME"             : "gamebit_project",    
+    "GP_DB_CONNECTION_MAX"   : 100,
+    "GP_DB_CONNECTION_BUFFER": 10,    
+    "GP_LISTEN_PORT"         : 53001
+}

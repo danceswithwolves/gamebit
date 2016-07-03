@@ -1,5 +1,4 @@
-const db = require('./services/db')
-const r  = require('./services/rethinkDb')
+const db = require('../infrastructure/db').db
 
 class ProjectService {
     create(project) {
@@ -11,7 +10,7 @@ class ProjectService {
     }
 
     get(id) {
-        return db.select(id)
+        return db.select(id, 'project')
     }
 
     archive(id) {
