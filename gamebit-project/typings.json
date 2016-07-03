@@ -1,8 +1,12 @@
 {
   "dependencies": {
-    "bluebird": "registry:npm/bluebird#3.3.4+20160622205516"
+    "bluebird": "registry:npm/bluebird#3.3.4+20160622205516",
+    "rethinkdbdash": "github:ExoZoneDev/typings-rethinkdbdash#a12a51fb6b9126b274f64b028427136d2626d616"
   },
-  "devDependencies": {
-    "bluebird": "registry:npm/bluebird#3.3.4+20160622205516"
+  "globalDependencies": {
+    "nconf": "registry:dt/nconf#0.0.0+20160316155526",
+    "rethinkdb": "registry:dt/rethinkdb#1.10.0+20160316155526",
+    "seneca": "registry:dt/seneca#2.1.0+20160619034151",
+    "winston": "registry:dt/winston#0.0.0+20160417152829"
   }
 }

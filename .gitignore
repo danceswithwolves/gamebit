@@ -1,2 +1,5 @@
 **/node_modules
 **/rethinkdb_data
+gamebit-project/gamebit-project-error.log
+gamebit-project/typings
+gamebit-project/.env

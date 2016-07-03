@@ -1,3 +1,5 @@
+/// <reference path="../typings/index.d.ts" />
+
 const winston = require('winston')
 
 const logger = new (winston.Logger)({
@@ -5,12 +7,13 @@ const logger = new (winston.Logger)({
         new (winston.transports.Console)({
             level: 'debug',
             handleExceptions: true,
-            json: true
+            json: false
         }),
         new (winston.transports.File)({ 
-            level: 'info',
+            level: 'error',
             handleExceptions: true,
-            filename: 'gamebit-project.log' 
+            json: false,
+            filename: 'gamebit-project-error.log' 
         })
     ],
     exitOnError: false
