@@ -41,5 +41,9 @@ module.exports = [
                 } 
             ],
         }
+    },
+    {
+        id: 'project/3',
+        name: 'Media Branches'
     }
 ]

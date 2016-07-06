@@ -6,7 +6,7 @@ class ProjectService {
     }
 
     update(project) {
-        return db.update(project)
+        return db.update(project, 'project')
     }
 
     get(id) {
@@ -14,7 +14,7 @@ class ProjectService {
     }
 
     archive(id) {
-        return db.delete(id)
+        return db.archive(id, 'project')
     }
 }
 
